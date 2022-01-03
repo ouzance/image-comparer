@@ -1,0 +1,40 @@
+
+.box{
+    position: relative;
+    .renkli{
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        z-index: 22;
+    }
+    .renksiz{
+        position: absolute;
+        right: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+
+    .divider{
+        width: 5px;
+        height: 450px;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 40px;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .circle{
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            background-color: #fff;
+            z-index: 100;
+            position: absolute;
+        }
+    }
+}
